@@ -1,0 +1,9 @@
+Scala Variables
+
+Sintaxe:
+	- var [nome]: [tipo] = [valor]
+	- val [nome]: [tipo] = [valor]
+	- var [nome] = [valor]
+	- val [nome] = [valor]
+	- val para valores FINAIS
+	- var para valores variáveis

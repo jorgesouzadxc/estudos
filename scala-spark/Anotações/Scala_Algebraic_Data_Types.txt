@@ -1,0 +1,42 @@
+Scala Algebraic Data Types:
+	- São padrões de desenvolvimento que ajudam a compor a relação entre classes/objetos e traits.
+
+Product type pattern:
+	- Padrão "A tem B e C". Quando A tem B e C, podemos das seguintes de duas formas.
+	
+Sintaxe:
+	class A(b: B, c: C) {
+		expressoes, metodos
+	}
+	
+	//Ou criar um trait para ser extendido por outras classes/objetos
+	trait A {
+		def b: B
+		def c: C
+	}
+	
+Sum type pattern:
+	- Padrão "A é B ou C". Quando A é B ou C, podemos escrever:
+	
+Sintaxe:
+	sealed trait A
+	final case class B extends A
+	final case class C extends A
+
+Missing patterns:
+	- Padrões que ficam faltando segundo a tabela do livro
+	
+"A é B e C"
+Sintaxe:
+	trait B
+	trait C
+	trait A extends B with C
+	
+"A tem B ou C"
+Sintaxe:
+	case class A(d: D)
+	sealed trait D
+	final case object B extends D
+	final case object C extends D
+	
+

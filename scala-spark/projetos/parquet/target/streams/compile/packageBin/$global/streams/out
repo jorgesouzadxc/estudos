@@ -1,0 +1,17 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging C:\Users\jsouzadasilv\OneDrive - DXC Production\Documents\scala\parquet\target\scala-2.11\parquet_2.11-0.1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\carrefour\genparquet[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\OneDrive - DXC Production\Documents\scala\parquet\target\scala-2.11\classes\com\carrefour\genparquet[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\carrefour[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\OneDrive - DXC Production\Documents\scala\parquet\target\scala-2.11\classes\com\carrefour[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\carrefour\genparquet\ParquetGen$$anonfun$getQueryFromFile$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\OneDrive - DXC Production\Documents\scala\parquet\target\scala-2.11\classes\com\carrefour\genparquet\ParquetGen$$anonfun$getQueryFromFile$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\carrefour\genparquet\ParquetGen$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\OneDrive - DXC Production\Documents\scala\parquet\target\scala-2.11\classes\com\carrefour\genparquet\ParquetGen$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\carrefour\genparquet\ParquetGen$$anonfun$writeParquet$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\OneDrive - DXC Production\Documents\scala\parquet\target\scala-2.11\classes\com\carrefour\genparquet\ParquetGen$$anonfun$writeParquet$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\OneDrive - DXC Production\Documents\scala\parquet\target\scala-2.11\classes\com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\carrefour\genparquet\ParquetGen.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\OneDrive - DXC Production\Documents\scala\parquet\target\scala-2.11\classes\com\carrefour\genparquet\ParquetGen.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

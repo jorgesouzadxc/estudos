@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\jsouzadasilv\Documents\scala\scala_essentials_4\src\test\scala\example\HelloSpec.scala:7:5: not found: value Hello[0m
+[0m[[0m[31merror[0m] [0m[0m    Hello.greeting shouldEqual "hello"[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

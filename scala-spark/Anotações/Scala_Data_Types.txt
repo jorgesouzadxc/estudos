@@ -1,0 +1,10 @@
+Scala Data Types
+Os tipos determinam restrições ao valor das variáveis. Todos os tipos em Scala são considerados objetos e possuem seus próprios métodos. Os tipos primitivos em Scala são chamados expressões literais, o que significa que a expressão por si só é interpretada para um valor.
+	- Short número de 16 bits inteiro
+	- Int número de 32 bit inteiro
+	- Long número de 64 bits inteiro
+	- Float número com ponto flutuante de 32 bits
+	- Double número com ponto flutuante de 64 bits
+	- Char caractere de 16 bit
+	- String sequência de caracteres
+	- Boolean true ou false

@@ -1,0 +1,6 @@
+Scala type parameter
+case class Classe[A](value: A) {
+	...corpo...
+}
+
+Type parameters servem para generalizar o tipo de dado do parametro. A classe acima aceitará qualquer tipo de dado como parâmetro, e esse valor ficará ligado ao valor que for passado dentro do escopo da classe ou função.

@@ -1,0 +1,14 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\src\main\scala\Main.scala:19:21: not enough arguments for method apply: (inputFile: String, outputFile: String)Unit in object ProductSales.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter outputFile.[0m
+[0m[[0m[31merror[0m] [0m[0m        ProductSales(inputFile)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\src\main\scala\retail_data_analysis\StoreSales.scala:30:22: not found: type Expection[0m
+[0m[[0m[31merror[0m] [0m[0m            case ex: Expection => ex.printStackTrace [0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\src\main\scala\retail_data_analysis\TotalSales.scala:3:19: object sql is not a member of package org.apache[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\src\main\scala\retail_data_analysis\TotalSales.scala:11:21: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m        val spark = SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

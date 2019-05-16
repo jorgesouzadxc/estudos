@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\jsouzadasilv\Documents\scala\scala_essentials_4\src\main\scala\main\Main.scala:64:19: value imdbRating is not a member of Double[0m
+[0m[[0m[31merror[0m] [0m[0m        println(a.imdbRating)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\jsouzadasilv\Documents\scala\scala_essentials_4\src\main\scala\main\Main.scala:65:11: value imdbRating is not a member of Double[0m
+[0m[[0m[31merror[0m] [0m[0m        a.imdbRating + b.imdbRating[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m

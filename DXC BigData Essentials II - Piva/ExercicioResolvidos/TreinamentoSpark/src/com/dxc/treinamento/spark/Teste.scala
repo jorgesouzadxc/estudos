@@ -1,0 +1,248 @@
+package com.dxc.treinamento.spark
+
+import org.apache.log4j.Logger
+import org.apache.log4j.Level
+
+import java.time.LocalDateTime
+
+
+object Teste {  
+  
+    def main(args: Array[String]): Unit = { 
+
+      val texto = """{
+        |	"requestId":"pool-2-thread-9 - a5c8cf21-0b72-43b3-ac9d-e19bbb50ac8a",
+        |	"definition":{
+        |		"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Reference",
+        |		"id":{
+        |			"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+        |			"id":"84db1c0a-6da9-432c-a723-88008774bacc",
+        |			"version":0,
+        |			"typeName":"hive_table",
+        |			"state":"ACTIVE"
+        |		},
+        |		"typeName":"hive_table",
+        |		"values":{
+        |			"aliases":null,
+        |			"tableType":"MANAGED_TABLE",
+        |			"name":"cadastro_cliente",
+        |			"viewExpandedText":null,
+        |			"createTime":"2018-08-08T13:46:09.000Z",
+        |			"description":null,
+        |			"temporary":false,
+        |			"db":{
+        |				"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+        |				"id":"b8bebeff-c632-4c5e-8fc6-74233cec58bc",
+        |				"version":0,
+        |				"typeName":"hive_db",
+        |				"state":"ACTIVE"
+        |			},
+        |			"viewOriginalText":null,
+        |			"retention":0,
+        |			"qualifiedName":"teste_piva.cadastro_cliente@NARWHAL",
+        |			"columns":[
+        |				{
+        |					"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Reference",
+        |					"id":{
+        |						"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+        |						"id":"9fb6df32-1b3e-4961-a275-357f659229d1",
+        |						"version":0,
+        |						"typeName":"hive_column",
+        |						"state":"ACTIVE"
+        |					},
+        |					"typeName":"hive_column",
+        |					"values":{
+        |						"name":"nome",
+        |						"description":null,
+        |						"qualifiedName":"teste_piva.cadastro_cliente.nome@NARWHAL",
+        |						"comment":null,
+        |						"position":0,
+        |						"owner":"anonymous",
+        |						"type":"string",
+        |						"table":{
+        |							"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+        |							"id":"84db1c0a-6da9-432c-a723-88008774bacc",
+        |							"version":0,"typeName":"hive_table","state":"ACTIVE"}
+        |					},
+        |					"traitNames":["Origin_Date_Format"],
+        |					"traits":{
+        |						"Origin_Date_Format":{
+        |							"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Struct",
+        |							"typeName":"Origin_Date_Format",
+        |							"values":{
+        |								"origin_format":"dd\/MM\/yy"}
+        |						}
+        |					},
+        |					"systemAttributes":{
+        |						"createdBy":"anonymous",
+        |						"modifiedBy":"admin",
+        |						"createdTime":"2018-08-08T13:46:07.354Z",
+        |						"modifiedTime":"2018-09-10T17:52:01.127Z"
+        |					}
+        |				},
+        |				{
+        |					"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Reference",
+        |					"id":{
+        |						"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+        |						"id":"f1c43987-a937-443e-87c1-73e8a5186d2a",
+        |						"version":0,
+        |						"typeName":"hive_column",
+        |						"state":"ACTIVE"
+        |					},
+        |					"typeName":"hive_column",
+        |					"values":{
+        |						"name":"cpf",
+        |						"description":null,
+        |						"qualifiedName":"teste_piva.cadastro_cliente.cpf@NARWHAL",
+        |						"comment":null,
+        |						"position":1,
+        |						"owner":"anonymous",
+        |						"type":"string",
+        |						"table":
+        |						{
+        |							"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+        |							"id":"84db1c0a-6da9-432c-a723-88008774bacc",
+        |							"version":0,"typeName":"hive_table",
+        |							"state":"ACTIVE"
+        |						}
+        |					},
+        |					"traitNames":["Origin_Date_Format"],
+        |					"traits":{
+        |						"Origin_Date_Format":{
+        |							"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Struct",
+        |							"typeName":"Origin_Date_Format",
+        |							"values":
+        |							{
+        |								"origin_format":"yyydyuuuioi"
+        |							}
+        |						}
+        |					},
+        |					"systemAttributes":{
+        |						"createdBy":"anonymous",
+        |						"modifiedBy":"anonymous",
+        |						"createdTime":"2018-08-08T13:46:07.354Z",
+        |						"modifiedTime":"2018-08-08T13:46:07.354Z"
+        |					}
+        |				},
+        |				{
+        |					"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Reference",
+        |					"id":{
+        |						"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+        |						"id":"e8c9e435-56b8-47e9-a8e4-eaadaa6881fb",
+        |						"version":0,
+        |						"typeName":"hive_column",
+        |						"state":"ACTIVE"
+        |					},
+        |					"typeName":"hive_column",
+        |					"values":{
+        |						"name":"idade",
+        |						"description":null,
+        |						"qualifiedName":"teste_piva.cadastro_cliente.idade@NARWHAL",
+        |						"comment":null,
+        |						"position":2,
+        |						"owner":"anonymous",
+        |						"type":"int",
+        |						"table":{
+        |							"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+        |							"id":"84db1c0a-6da9-432c-a723-88008774bacc",
+        |							"version":0,
+        |							"typeName":"hive_table",
+        |							"state":"ACTIVE"
+        |						}
+        |					},
+        |					"traitNames":[],
+        |					"traits":{},
+        |					"systemAttributes":{
+        |						"createdBy":"anonymous",
+        |						"modifiedBy":"anonymous",
+        |						"createdTime":"2018-08-08T13:46:07.354Z",
+        |						"modifiedTime":"2018-08-08T13:46:07.354Z"
+        |					}
+        |				}
+        |			],
+        |			"comment":null,
+        |			"lastAccessTime":"2018-08-08T13:46:09.000Z",
+        |			"owner":"anonymous",
+        |			"sd":{
+        |				"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Reference",
+        |				"id":{
+        |					"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+        |					"id":"506bc889-f6ac-43ad-a085-cae38b18637b",
+        |					"version":0,
+        |					"typeName":"hive_storagedesc",
+        |					"state":"ACTIVE"
+        |				},
+        |				"typeName":"hive_storagedesc",
+        |				"values":{
+        |					"location":"hdfs:\/\/csfvmlxbdmstd01.csfcpv.wcorp.carrefour.com:8020\/apps\/hive\/warehouse\/teste_piva.db\/cadastro_cliente",
+        |					"serdeInfo":{
+        |						"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Struct",
+        |						"typeName":"hive_serde",
+        |						"values":{
+        |							"serializationLib":"org.apache.hadoop.hive.ql.io.orc.OrcSerde",
+        |							"parameters":{
+        |								"serialization.format":"|",
+        |								"field.delim":"|"
+        |							},
+        |							"name":null
+        |						}
+        |					},
+        |					"qualifiedName":"teste_piva.cadastro_cliente@NARWHAL_storage",
+        |					"outputFormat":"org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat",
+        |					"compressed":false,
+        |					"sortCols":null,
+        |					"bucketCols":null,
+        |					"numBuckets":-1,
+        |					"inputFormat":"org.apache.hadoop.hive.ql.io.orc.OrcInputFormat",
+        |					"parameters":null,
+        |					"storedAsSubDirectories":false,
+        |					"table":{
+        |						"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+        |						"id":"84db1c0a-6da9-432c-a723-88008774bacc",
+        |						"version":0,
+        |						"typeName":"hive_table",
+        |						"state":"ACTIVE"
+        |					}
+        |				},
+        |				"traitNames":[],
+        |				"traits":{},
+        |				"systemAttributes":{
+        |					"createdBy":"anonymous",
+        |					"modifiedBy":"anonymous",
+        |					"createdTime":"2018-08-08T13:46:07.354Z",
+        |					"modifiedTime":"2018-08-08T13:46:07.354Z"
+        |				}
+        |			},
+        |			"parameters":{
+        |				"rawDataSize":"0",
+        |				"numFiles":"0",
+        |				"transient_lastDdlTime":"1533735969",
+        |				"totalSize":"0",
+        |				"orc.compress":"ZLIB",
+        |				"COLUMN_STATS_ACCURATE":"{\"BASIC_STATS\":\"true\"}",
+        |				"numRows":"0"
+        |			},
+        |			"partitionKeys":null
+        |		},
+        |		"traitNames":[],
+        |		"traits":{},
+        |		"systemAttributes":{
+        |			"createdBy":"anonymous",
+        |			"modifiedBy":"admin",
+        |			"createdTime":"2018-08-08T13:46:07.354Z",
+        |			"modifiedTime":"2018-09-10T18:25:59.589Z"
+        |		}
+        |	}
+        |}
+        """.stripMargin
+    
+    val log = Logger.getLogger("com.dxc.treinamento.spark.Teste");
+    val localDateTime = LocalDateTime.now
+    log.info(localDateTime)
+    log.error("teste de erro")
+    println(texto)
+      
+    
+  }
+  
+}

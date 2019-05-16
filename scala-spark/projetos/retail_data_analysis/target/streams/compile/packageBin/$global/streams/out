@@ -1,0 +1,35 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\retail-data-analysis_2.11-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala\retail_data_analysis\TotalSales$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala\retail_data_analysis\TotalSales$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala\retail_data_analysis\ProductSales$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala\retail_data_analysis\ProductSales$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala\retail_data_analysis\ProductSales$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala\retail_data_analysis\ProductSales$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala\retail_data_analysis\TotalSales.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala\retail_data_analysis\TotalSales.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala\retail_data_analysis\StoreSales$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala\retail_data_analysis\StoreSales$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala\retail_data_analysis\StoreSales$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala\retail_data_analysis\StoreSales$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala\retail_data_analysis[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala\retail_data_analysis[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala\retail_data_analysis\TotalSales$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala\retail_data_analysis\TotalSales$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala\retail_data_analysis\ProductSales.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala\retail_data_analysis\ProductSales.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala\retail_data_analysis\StoreSales$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala\retail_data_analysis\StoreSales$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala\retail_data_analysis\StoreSales.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala\retail_data_analysis\StoreSales.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala\retail_data_analysis\TotalSales$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala\retail_data_analysis\TotalSales$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scala\retail_data_analysis\ProductSales$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\jsouzadasilv\vagrant-boxes\spark-base64\scala-workspace\retail_data_analysis\target\scala-2.11\classes\scala\retail_data_analysis\ProductSales$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

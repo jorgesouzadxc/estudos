@@ -1,0 +1,6 @@
+Scala Lists
+
+val seq = Seq(1, 2, 3)
+seq.find(x => x < 2) ou  seq.find(_ < 2)
+
+seq.sortWith(_ < _) //ordena na ordem inversa

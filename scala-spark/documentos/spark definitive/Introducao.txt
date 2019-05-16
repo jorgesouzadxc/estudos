@@ -1,0 +1,15 @@
+Transformações com dependências
+Dois tipos de transformações:
+	. narrow dependencies (narrow transformations - transformações estreitas, pequenas)
+	. wide dependencies (wide transformations - transformações largas, grandes)
+	
+narrow dependencies
+Transformações 1 pra 1, onde cada partição de entrada produz uma partição de saída.
+
+wide transformations
+Transformações 1 para N, onde uma partição de entrada gera multiplas partições de saída. Causa "shuffle", o que força com que exista troca de partições entre os nós do cluster.
+
+Lazy evaluation
+Spark monta um plano de execução para as transformações da informação de entrada, e só engatilha esse plano quando uma ação é realizada no dataframe. Isso prove uma forma otimização na execução desses dataframes.
+
+

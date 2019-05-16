@@ -1,0 +1,10 @@
+Scala Traits:
+	- Traits em Scala são como interfaces em java. O trait define um conjunto de valores e métodos para suas subclasses, ou determina que eles criem sua própria implementação de alguns métodos. Serve para definir um "comportamento" em comum entre objetos de Scala.
+
+Sintaxe:	
+trait [nome] {
+	campos, métodos
+}
+
+Sealed Trait:
+	- Sealed Traits agem como traits que não podem ser extendidos fora de sua unidade de compilação. Isso significa que apenas os objetos e classes que estão no mesmo arquivo o qual o sealed trait foi definido podem extende-lo.

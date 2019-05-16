@@ -1,0 +1,22 @@
+Scala objects:
+	- Objetos em scala são chamados de singleton objects. Similar ao design pattern singleton de JAVA, um object em Scala é um objeto único, sem classe que o define.
+
+Sintaxe
+	- object [nome] {
+	- 	[campos e métodos]
+	- }
+	
+Apply:
+	- ao definir um método apply dentro de um objeto, pode ser colocado paranteses em frente ao objeto para que o método apply seja invocado. Ao invés de objeto.apply(), fica objeto().
+
+Sintaxe:
+	object [nome] {
+		def apply([param]: [tipo]): [tipo de retorno] =
+			expressao
+	}
+	
+Case object:
+	- ao adicionar a keyword "case" na criação do objeto, habilita o uso de pattern matching.
+
+Final Object:
+	- ao adicionar a keyword "final" na criação do objeto, desabilita que esse objeto seja extendido por outros objetos.

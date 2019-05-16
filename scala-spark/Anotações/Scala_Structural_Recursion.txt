@@ -1,0 +1,32 @@
+Algebraic Polymorphism Patterns:
+
+Product type polymorphism:
+Se A tem B e C, e eu preciso definir um método F para eles:
+
+case class A(b: B, c: C) {
+	def f: F = ???
+}
+
+Sum type polymorphism:
+Se A é B ou C, e quero implementar um método F, define-se:
+sealed trait A {
+	def f: F
+}
+
+final case class B() implements A {
+	def f: F = ???
+}
+
+final case class C() implements A {
+	def f: F = ???
+}
+
+Structural Recursion using Pattern Matching:
+sealed trait A {
+	def b_or_c: A = this match {
+		case B => B
+		case C => C
+	}
+}
+final case object B implements A
+final case object C implements A

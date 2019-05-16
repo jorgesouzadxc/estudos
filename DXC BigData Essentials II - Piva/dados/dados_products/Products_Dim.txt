@@ -1,0 +1,31 @@
+Product_Code	Product_Name
+11	Rice, long grain
+12	Rice, white
+13	Cornflakes, Kellogg's
+14	Flour, wheat
+15	Flour, maize
+16	Bread, white, sliced
+21	Beef, minced
+22	Chicken legs
+23	Tuna steaks
+24	Shrimp
+25	Canned Sardines
+31	Milk
+32	Eggs
+33	Sunflower oil
+34	Palm oil
+35	Soybean oil
+41	Banana
+42	Orange
+43	Apple
+44	Carrots
+45	Onion
+46	Maize
+47	Potatoes, brown
+48	Cassava
+49	Beans, white, dried
+51	Sugar, white
+52	Cooking salt
+61	Instant coffee, Nescafe Classic
+62	Tea, black
+63	Coca Cola / Pepsi Cola

@@ -1,0 +1,36 @@
+Scala classes
+Sintaxe:
+	class [nome](val [param1]: [tipo], val [param2]: [tipo]) {
+		expressões, métodos
+	}
+	
+Companion objects:
+	- Precisa ser escrito no mesmo arquivo que uma determinada classe, e serve para criar sobrecarga de construtures e métodos que são independentes da instância dos objetos dessa classe. Equivalente ao static do JAVA.
+	
+Sinxtaxe:
+	object [nome da classe] {
+	
+		//sobrecarga de construtor
+		def apply([param1]: [tipo], [param2]: [tipo]): [objeto do mesmo tipo da classe] =
+			new [objeto]
+			
+	}
+	
+Case classes:
+	- Um atalho para criar uma classe pré-populada com um companion object e algum métodos úteis:
+		- cria um campo para cada argumento do construtor, sem precisar prefixar a keyword val
+		- cria um companion object
+		- um método toString por default ao digitar apenas o nome de um objeto criado pela case class, que printa a chamada do construtor que o criou
+		- equals ou == comparam o objeto por seus campos ao invés de por sua referência
+		- um método copy criar copias dos objetos
+			- o método copia cria um novo objeto com os mesmos campo
+			- pode-se usar keyword parameters para modificar campos especificos enquanto se mantém os demais
+			- pode-se omitir a keyword new por chamar o método apply do companion object criado
+
+Sintaxe:
+	case class [nome] ([campo1]: [tipo1], [campo2]: [tipo2] (
+		expressões, métodos
+	}
+	
+Final Class:
+	- Ao adicionar a keyword "final" na criação de uma classe, isso impede que a mesma seja extendida por outras classes.
